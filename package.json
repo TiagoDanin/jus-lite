@@ -107,7 +107,7 @@
   "devDependencies": {
     "chai": "^3.4.1",
     "cross-env": "^2.0.0",
-    "mocha": "^2.3.3",
+    "mocha": "^10.0.0",
     "nixt": "^0.4.1",
     "path-exists": "^2.1.0",
     "semantic-release": "^12.4.1",
