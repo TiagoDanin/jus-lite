@@ -1,6 +1,6 @@
 # Jus lite
 
-[![Downloads](https://img.shields.io/npm/dt/jus-lite.svg?style=flat-square)](https://npmjs.org/package/jus-lite) [![Node](https://img.shields.io/node/v/jus-lite.svg?style=flat-square)](https://npmjs.org/package/jus-lite) [![Version](https://img.shields.io/npm/v/jus-lite.svg?style=flat-square)](https://npmjs.org/package/jus-lite) 
+[![Downloads](https://img.shields.io/npm/dt/jus-lite.svg?style=flat-square)](https://npmjs.org/package/jus-lite) [![Node](https://img.shields.io/node/v/jus-lite.svg?style=flat-square)](https://npmjs.org/package/jus-lite) [![Version](https://img.shields.io/npm/v/jus-lite.svg?style=flat-square)](https://npmjs.org/package/jus-lite) [![Fork](https://img.shields.io/badge/Fork-Package%20jus-blue.svg?style=flat-square)](https//github.com/jus/jus) 
 
 A tool for building static websites with no configuration and no boilerplate code
 
@@ -10,15 +10,15 @@ Module available through the [npm registry](https://www.npmjs.com/). It can be i
 
 ```sh
 # Yarn (Recomend)
-yarn add jus-lite
+yarn global add jus-lite
 # NPM 
-npm install jus-lite --save
+npm install jus-lite --global
 ```
 
 ## Usage
 
 ```sh
-jus
+jus-lite
 ```
 
 ## Tests
@@ -32,6 +32,12 @@ yarn test
 
 ## Dependencies
 
+<details>
+	<summary><a href="https://ghub.io/ignored">ignored</a>: List all entries in .gitignore as an array</summary>
+	<b>Author</b>: @nelsonic</br>
+	<b>License</b>: ISC</br>
+	<b>Version</b>: 2.0.4
+</details>
 <details>
 	<summary><a href="https://ghub.io/async">async</a>: Higher-order functions and common patterns for asynchronous code</summary>
 	<b>Author</b>: Caolan McMahon</br>
@@ -231,7 +237,7 @@ yarn test
 	<b>Version</b>: ^8.0.0
 </details>
 <details>
-	<summary><a href="https://ghub.io/remark-highlight.js">remark-highlight.js</a>: Legacy remark plugin to highlight code blocks with highlight.js ΓÇö please use &#x60;rehype-highlight&#x60; instead</summary>
+	<summary><a href="https://ghub.io/remark-highlight.js">remark-highlight.js</a>: Legacy remark plugin to highlight code blocks with highlight.js — please use &#x60;rehype-highlight&#x60; instead</summary>
 	<b>Author</b>: Ben Briggs</br>
 	<b>License</b>: MIT</br>
 	<b>Version</b>: ^5.0.0
@@ -243,7 +249,7 @@ yarn test
 	<b>Version</b>: ^6.0.1
 </details>
 <details>
-	<summary><a href="https://ghub.io/remark-slug">remark-slug</a>: Legacy remark plugin to add anchors to headings ΓÇö please use &#x60;rehype-slug&#x60;</summary>
+	<summary><a href="https://ghub.io/remark-slug">remark-slug</a>: Legacy remark plugin to add anchors to headings — please use &#x60;rehype-slug&#x60;</summary>
 	<b>Author</b>: Titus Wormer</br>
 	<b>License</b>: MIT</br>
 	<b>Version</b>: ^4.2.3
@@ -256,7 +262,7 @@ yarn test
 </details>
 <details>
 	<summary><a href="https://ghub.io/tmp">tmp</a>: Temporary file and directory creator</summary>
-	<b>Author</b>: KARASZI Istv├ín</br>
+	<b>Author</b>: KARASZI István</br>
 	<b>License</b>: MIT</br>
 	<b>Version</b>: 0.0.28
 </details>
@@ -307,21 +313,43 @@ yarn test
 </details>
 <details>
 	<summary><a href="https://ghub.io/travis-deploy-once">travis-deploy-once</a>: Run a deployment script only once in the Travis test matrix</summary>
-	<b>Author</b>: Stephan B├╢nnemann</br>
+	<b>Author</b>: Stephan Bönnemann</br>
 	<b>License</b>: MIT</br>
 	<b>Version</b>: ^4.3.3
 </details>
 <details>
 	<summary><a href="https://ghub.io/semantic-release">semantic-release</a>: Automated semver compliant package publishing</summary>
-	<b>Author</b>: Stephan B├╢nnemann</br>
+	<b>Author</b>: Stephan Bönnemann</br>
 	<b>License</b>: MIT</br>
 	<b>Version</b>: ^12.4.1
 </details>
 
+## Related
+
+<details>
+	<summary><a href="https://ghub.io/gen-package">gen-package</a>: Intuitive and user-friendly generator of package.json</summary>
+	<b>Author</b>: TiagoDanin</br>
+	<b>License</b>: MIT
+</details>
+<details>
+	<summary><a href="https://ghub.io/gen-readme">gen-readme</a>: Generate a README.md from package.json contents.</summary>
+	<b>Author</b>: Tiago Danin</br>
+	<b>License</b>: MIT
+</details>
+<details>
+	<summary><a href="https://ghub.io/jus">jus</a>: A tool for building static websites with no configuration and no boilerplate code</summary>
+	<b>Author</b>: zeke</br>
+	<b>License</b>: MIT
+</details>
+
 ## Contributors
 
-Pull requests and stars are always welcome. For bugs and feature requests, please [create an issue](https://github.com/CuboHub/jus-lite/issues). [List of all contributors](https://github.com/CuboHub/jus-lite/graphs/contributors).
+Pull requests and stars are always welcome. For bugs and feature requests, please [create an issue](https://github.com/TiagoDanin/jus-lite/issues). [List of all contributors](https://github.com/TiagoDanin/jus-lite/graphs/contributors).
+
+## Thanks
+
+- [Team Jus](https://github.com/jus/jus/): Just lite is an fork of https://github.com/jus/jus/
 
 ## License
 
-[MIT](LICENSE) ┬⌐ Tiago Danin
+[MIT](LICENSE) © [Tiago Danin](https://TiagoDanin.github.io)

@@ -1,1 +1,1 @@
-jus
+jus-lite

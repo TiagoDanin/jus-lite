@@ -263,22 +263,6 @@ describe('jus', function () {
         expect($input('#banana-script').attr('src')).to.equal('other/banana.js')
         expect($output('#banana-script').attr('src')).to.equal('other/banana.js')
       })
-
-      // it('ignores relative with leading slash', function(){
-      //   expect(input).to.include('<img src="/guava-leading-slashy.png">')
-      //   expect(output).to.include('<img src="/guava-leading-slashy.png">')
-      // })
-      //
-      // it('ignores absolute', function(){
-      //   expect(input).to.include('<img src="https://guava.com/logo.png">')
-      //   expect(output).to.include('<img src="https://guava.com/logo.png">')
-      // })
-      //
-      // it('ignores protocol-relative', function(){
-      //   expect(input).to.include('<img src="//guava-relative.com/logo.png">')
-      //   expect(output).to.include('<img src="//guava-relative.com/logo.png">')
-      // })
-
     })
 
     describe('`href` attributes in the DOM', function() {
@@ -457,17 +441,6 @@ describe('jus', function () {
       expect(files['/styles.scss'].type).to.equal('stylesheet')
     })
 
-    they('are processed with Myth if extension is .css', function(done){
-      var stylesheet = files['/styles-myth.css']
-      // console.log('stylesheet', stylesheet.input)
-      expect(stylesheet.input).to.include('color: var(--green);')
-
-      stylesheet.render(context, function(err, output){
-        expect(output).to.include('color: #a6c776;')
-        done()
-      })
-    })
-
     describe('written in SCSS', function(){
       var input
       var output
@@ -493,16 +466,6 @@ describe('jus', function () {
       they('can require SCSS files from different directories', function(){
         expect(input).to.include('font-size: $fontSize')
         expect(output).to.include('font-size: 1.5rem;')
-      })
-    })
-
-    they('can be written in Less', function(done){
-      var stylesheet = files['/styles-less.less']
-      expect(stylesheet.input).to.include('color: @light-blue;')
-
-      stylesheet.render(context, function(err, output){
-        expect(output).to.include('color: #6c94be;')
-        done()
       })
     })
 
@@ -533,35 +496,6 @@ describe('jus', function () {
         expect(output).to.include('font-size: 1.5rem;')
       })
     })
-
-    describe('written in stylus', function() {
-      var input
-      var output
-
-      before(function(done){
-        input = files['/styles-stylus.styl'].input
-        files['/styles-stylus.styl'].render(context, function(err, _output){
-          output = _output
-          done()
-        })
-      })
-
-      they('can use variables', function(){
-        expect(input).to.include('background color')
-        expect(output).to.include('background: #f00;')
-      })
-
-      they('can require other stylus files in the same directory', function(){
-        expect(input).to.include('border-color otherColor')
-        expect(output).to.include('border-color: #00f;')
-      })
-
-      they('can require stylus files from different directories', function(){
-        expect(input).to.include('font-size fontSize')
-        expect(output).to.include('font-size: 1.5rem;')
-      })
-    })
-
   })
 
   describe('scripts', function(){
@@ -635,5 +569,4 @@ describe('jus', function () {
       expect(output).to.contain('<li class="page">/other/papayas</li>')
     })
   })
-
 })

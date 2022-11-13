@@ -1,0 +1,18 @@
+{
+  "related": ["gen-package", "gen-readme", "jus"],
+  "thanks": [
+    {
+      "name": "Team Jus",
+      "url": "https://github.com/jus/jus/",
+      "description": "Just lite is an fork of https://github.com/jus/jus/"
+    }
+  ],
+  "badges": {
+    "list": [
+      "Fork:Package jus:blue:https://github.com/jus/jus"
+    ],
+    "sort": false,
+    "sortReverse": false,
+    "first": ["Travis", "Downloads", "Node", "Version", "Fork", "XO code style"]
+  }
+}
