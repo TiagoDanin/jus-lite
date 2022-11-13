@@ -5,7 +5,7 @@
     "jus-lite": "cli.js"
   },
   "preferGlobal": true,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A tool for building static websites with no configuration and no boilerplate code.",
   "author": {
     "email": "TiagoDanin@outlook.com",
