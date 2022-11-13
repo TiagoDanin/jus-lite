@@ -100,7 +100,7 @@
     "remark-highlight.js": "^5.0.0",
     "remark-html": "^6.0.1",
     "remark-slug": "^4.2.3",
-    "require-dir": "^0.3.0",
+    "require-dir": "^1.2.0",
     "tmp": "0.0.28",
     "upath": "^0.2.0"
   },

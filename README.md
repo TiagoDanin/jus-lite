@@ -2,7 +2,7 @@
 
 [![Downloads](https://img.shields.io/npm/dt/jus-lite.svg?style=flat-square)](https://npmjs.org/package/jus-lite) [![Node](https://img.shields.io/node/v/jus-lite.svg?style=flat-square)](https://npmjs.org/package/jus-lite) [![Version](https://img.shields.io/npm/v/jus-lite.svg?style=flat-square)](https://npmjs.org/package/jus-lite) [![Fork](https://img.shields.io/badge/Fork-Package%20jus-blue.svg?style=flat-square)](https//github.com/jus/jus) 
 
-A tool for building static websites with no configuration and no boilerplate code
+A tool for building static websites with no configuration and no boilerplate code.
 
 ## Installation
 
@@ -32,12 +32,6 @@ yarn test
 
 ## Dependencies
 
-<details>
-	<summary><a href="https://ghub.io/ignored">ignored</a>: List all entries in .gitignore as an array</summary>
-	<b>Author</b>: @nelsonic</br>
-	<b>License</b>: ISC</br>
-	<b>Version</b>: 2.0.4
-</details>
 <details>
 	<summary><a href="https://ghub.io/async">async</a>: Higher-order functions and common patterns for asynchronous code</summary>
 	<b>Author</b>: Caolan McMahon</br>
@@ -165,6 +159,12 @@ yarn test
 	<b>Version</b>: ^3.1.1
 </details>
 <details>
+	<summary><a href="https://ghub.io/ignored">ignored</a>: List all entries in .gitignore as an array</summary>
+	<b>Author</b>: @nelsonic</br>
+	<b>License</b>: ISC</br>
+	<b>Version</b>: 2.0.4
+</details>
+<details>
 	<summary><a href="https://ghub.io/image-size">image-size</a>: get dimensions of any image file</summary>
 	<b>Author</b>: netroy</br>
 	<b>License</b>: MIT</br>
@@ -258,7 +258,7 @@ yarn test
 	<summary><a href="https://ghub.io/require-dir">require-dir</a>: Helper to require() directories.</summary>
 	<b>Author</b>: Aseem Kishore</br>
 	<b>License</b>: MIT</br>
-	<b>Version</b>: ^0.3.0
+	<b>Version</b>: ^1.2.0
 </details>
 <details>
 	<summary><a href="https://ghub.io/tmp">tmp</a>: Temporary file and directory creator</summary>
@@ -306,6 +306,12 @@ yarn test
 	<b>Version</b>: ^2.1.0
 </details>
 <details>
+	<summary><a href="https://ghub.io/semantic-release">semantic-release</a>: Automated semver compliant package publishing</summary>
+	<b>Author</b>: Stephan Bönnemann</br>
+	<b>License</b>: MIT</br>
+	<b>Version</b>: ^12.4.1
+</details>
+<details>
 	<summary><a href="https://ghub.io/supertest">supertest</a>: SuperAgent driven library for testing HTTP servers</summary>
 	<b>Author</b>: TJ Holowaychuk</br>
 	<b>License</b>: MIT</br>
@@ -316,12 +322,6 @@ yarn test
 	<b>Author</b>: Stephan Bönnemann</br>
 	<b>License</b>: MIT</br>
 	<b>Version</b>: ^4.3.3
-</details>
-<details>
-	<summary><a href="https://ghub.io/semantic-release">semantic-release</a>: Automated semver compliant package publishing</summary>
-	<b>Author</b>: Stephan Bönnemann</br>
-	<b>License</b>: MIT</br>
-	<b>Version</b>: ^12.4.1
 </details>
 
 ## Related
