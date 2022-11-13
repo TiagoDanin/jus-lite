@@ -78,7 +78,7 @@
     "event-emitter": "^0.3.4",
     "exif-parser": "^0.1.9",
     "express": "^4.13.3",
-    "fs-extra": "^0.26.3",
+    "fs-extra": "^0.30.0",
     "get-image-colors": "^1.5.0",
     "handlebars": "^4.0.5",
     "handlebars-helpers": "^0.10.0",
