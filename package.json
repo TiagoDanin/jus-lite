@@ -1,64 +1,68 @@
 {
   "name": "jus-lite",
-  "version": "1.0.0",
-  "description": "A tool for building static websites with no configuration and no boilerplate code.",
   "main": "lib/jus.js",
   "bin": {
     "jus-lite": "cli.js"
   },
   "preferGlobal": true,
-  "scripts": {
-    "test": "cross-env NODE_ENV=test mocha --check-leaks --globals __core-js_shared__,index",
-    "readme": "gen-readme --write"
-  },
-  "repository": {
-		"type": "git",
-		"url": "git+https://github.com/TiagoDanin/jus-lite.git"
-	},
-  "website": "https://github.com/TiagoDanin/jus-lite",
-  "keywords": [
-    "es6",
-    "es2015",
-    "babel",
-    "browserify",
-    "markdown",
-    "HTML",
-    "frontmatter",
-    "handlebars",
-    "sass",
-    "css",
-    "tree",
-    "directory",
-    "static",
-    "website",
-    "content",
-    "EXIF",
-    "geodata",
-    "images",
-    "CMS"
-  ],
+  "version": "1.0.1",
+  "description": "A tool for building static websites with no configuration and no boilerplate code.",
   "author": {
     "email": "TiagoDanin@outlook.com",
     "name": "Tiago Danin",
     "url": "https://TiagoDanin.github.io"
   },
   "license": "MIT",
+  "keywords": [
+    "CMS",
+    "EXIF",
+    "HTML",
+    "babel",
+    "browserify",
+    "content",
+    "css",
+    "directory",
+    "es2015",
+    "es6",
+    "frontmatter",
+    "geodata",
+    "handlebars",
+    "images",
+    "markdown",
+    "sass",
+    "static",
+    "tree",
+    "website"
+  ],
+  "scripts": {
+    "test": "cross-env NODE_ENV=test mocha --check-leaks --globals __core-js_shared__,index",
+    "readme": "gen-readme --write"
+  },
+  "engines": {
+    "node": ">=v16.10.0"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiagoDanin/jus-lite.git"
+  },
+  "homepage": "https://github.com/TiagoDanin/jus-lite#readme",
   "bugs": {
     "url": "https://github.com/TiagoDanin/jus-lite/issues"
   },
-  "homepage": "https://github.com/TiagoDanin/jus-lite#readme",
-  "devDependencies": {
-    "chai": "^3.4.1",
-    "cross-env": "^2.0.0",
-    "mocha": "^2.3.3",
-    "nixt": "^0.4.1",
-    "path-exists": "^2.1.0",
-    "supertest": "^1.1.0",
-    "travis-deploy-once": "^4.3.3",
-    "semantic-release": "^12.4.1"
+  "github": {
+    "name": "jus-lite",
+    "owner": "TiagoDanin"
   },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "cli.js",
+    "lib",
+    "package.json",
+    "yarn.lock"
+  ],
   "dependencies": {
-    "ignored": "2.0.4",
     "async": "^1.5.1",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
@@ -80,6 +84,7 @@
     "handlebars-helpers": "^0.10.0",
     "html-frontmatter": "^1.6.0",
     "identicon": "^3.1.1",
+    "ignored": "2.0.4",
     "image-size": "^0.5.0",
     "inflection": "^1.8.0",
     "js-yaml": "^3.4.6",
@@ -99,7 +104,15 @@
     "tmp": "0.0.28",
     "upath": "^0.2.0"
   },
-  "engines": {
-    "node": ">=v16.10.0"
-  }
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "cross-env": "^2.0.0",
+    "mocha": "^2.3.3",
+    "nixt": "^0.4.1",
+    "path-exists": "^2.1.0",
+    "semantic-release": "^12.4.1",
+    "supertest": "^1.1.0",
+    "travis-deploy-once": "^4.3.3"
+  },
+  "website": "https://github.com/TiagoDanin/jus-lite"
 }
