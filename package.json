@@ -109,7 +109,7 @@
     "cross-env": "^2.0.0",
     "mocha": "^2.3.3",
     "nixt": "^0.4.1",
-    "path-exists": "^2.1.0",
+    "path-exists": "^5.0.0",
     "semantic-release": "^12.4.1",
     "supertest": "^1.1.0",
     "travis-deploy-once": "^4.3.3"
